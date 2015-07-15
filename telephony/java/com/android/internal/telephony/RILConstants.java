@@ -105,8 +105,17 @@ public interface RILConstants {
     int NETWORK_MODE_TD_SCDMA_WCDMA_LTE       = 19; /* TD-SCDMA, WCDMA and LTE */
     int NETWORK_MODE_TD_SCDMA_GSM_WCDMA_LTE   = 20; /* TD-SCDMA, GSM/WCDMA and LTE */
     int NETWORK_MODE_TD_SCDMA_GSM_WCDMA_CDMA_EVDO  = 21; /*TD-SCDMA,EvDo,CDMA,GSM/WCDMA*/
-    int NETWORK_MODE_TD_SCDMA_LTE_CDMA_EVDO_GSM_WCDMA = 22; /* TD-SCDMA/LTE/GSM/WCDMA, CDMA, and
-                                                               EvDo */
+    int NETWORK_MODE_TD_SCDMA_LTE_CDMA_EVDO_GSM_WCDMA = 22; /* TD-SCDMA/LTE/GSM/WCDMA, CDMA, and EvDo */
+    int NETWORK_MODE_TDSCDMA_ONLY            = 23; /* TD-SCDMA only */
+    int NETWORK_MODE_TDSCDMA_WCDMA           = 24; /* TD-SCDMA and WCDMA */
+    int NETWORK_MODE_LTE_TDSCDMA             = 25; /* TD-SCDMA and LTE */
+    int NETWORK_MODE_TDSCDMA_GSM             = 26; /* TD-SCDMA and GSM */
+    int NETWORK_MODE_LTE_TDSCDMA_GSM         = 27; /* TD-SCDMA,GSM and LTE */
+    int NETWORK_MODE_TDSCDMA_GSM_WCDMA       = 28; /* TD-SCDMA, GSM/WCDMA */
+    int NETWORK_MODE_LTE_TDSCDMA_WCDMA       = 29; /* TD-SCDMA, WCDMA and LTE */
+    int NETWORK_MODE_LTE_TDSCDMA_GSM_WCDMA   = 30; /* TD-SCDMA, GSM/WCDMA and LTE */
+    int NETWORK_MODE_TDSCDMA_CDMA_EVDO_GSM_WCDMA  = 31; /*TD-SCDMA,EvDo,CDMA,GSM/WCDMA*/
+    int NETWORK_MODE_LTE_TDSCDMA_CDMA_EVDO_GSM_WCDMA = 22; /* TD-SCDMA/LTE/GSM/WCDMA, CDMA, and EvDo */
     int PREFERRED_NETWORK_MODE      = SystemProperties.getInt("ro.telephony.default_network",
             NETWORK_MODE_WCDMA_PREF);
 
